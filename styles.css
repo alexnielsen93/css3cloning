@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 900vh;
+}
+
+.nav-button{
+  cursor: pointer;
+
+}
+
+.hidden{
+  display:none;
+}
+.menu-box{
+width: 10%;
+height: 10%;
+display: flex;
+}
+.menu{
+  color: white;
+}
+.fa-bars{
+  color:white;
+}
+.ui-box{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 40vw;
+  color: white;
+  margin-right: 3%;
+}
+.logo-box{
+  margin-left: 3%;
+  color: #fed136;
+  font-family: cursive;
+  font-size: 30px;
+  
+}
+.navbar{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-box{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4),rgba(0,0,0,0.6)), url("https://c.pxhere.com/photos/76/9e/gadgets_office_equipment_iphone_music_men's_purse_glasses-971375.jpg!d");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.header-box{
+  display: flex;
+  background: none;
+  position: fixed;
+  
+}
+.content-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.message-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.welcome{
+  color: white;
+  font-size: 10vh
+  
+}
+.nice{
+  color: white;
+  font-size:60px;
+  
+}
+.button-box{
+  background: #fed136;
+  height: 8vh;
+  width: 12vw;
+  
+  
+}
+.button{
+  background:none;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+    @media (max-width: 900px){
+      .menu-box{
+        display: block;
+      }
+      .ui-box{
+        display: none;
+      }
+    }
+    @media(min-width:900px){
+      .menu-box{display:none}
+      .ui-box{display:flex;}
+    }
